@@ -1,36 +1,60 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# 1. Project Overview
+**Project Name**: Digitelixx Agency Website
+**Purpose of the project**: A premium, high-performance landing page and digital portfolio for Digitelixx, a digital marketing and development agency.
+**Problem it solves**: Establishes online credibility, showcases case studies/portfolio, and acts as a lead generation tool for prospective clients.
+**Target users**: B2B clients, startups, and enterprises looking for digital growth, eCommerce scaling, and software development.
+**Key features**: Responsive design, premium editorial layouts (e.g., Case Study highlights), animated sections, static export for high-speed delivery, embedded contact forms and FAQs.
 
-## Getting Started
+# 2. Tech Stack
+- **Frontend frameworks**: Next.js (App Router), React
+- **Backend frameworks**: N/A (Static Site)
+- **Database**: N/A
+- **Authentication**: N/A
+- **AI/ML models**: N/A
+- **APIs**: N/A
+- **Libraries**: `matter-js` (potentially for future canvas animations), Tailwind CSS v4.
+- **Deployment platforms**: Hostinger Shared Hosting (Static Export via `out` folder).
+- **Dev tools**: ESLint, PostCSS.
 
-First, run the development server:
+*Why chosen*: Next.js was chosen for its component-based architecture and ease of building React applications. Static export (`output: 'export'`) was chosen specifically to allow hosting on highly cost-effective shared hosting platforms like Hostinger, which do not support Node.js server environments but excel at serving static HTML/CSS/JS.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+# 11. Installation Guide
+**Prerequisites**: Node.js 18+ and npm.
+**Setup steps**:
+1. Clone the repository.
+2. Navigate to the project root.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+**Commands to install dependencies**:
+`npm install`
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+**Run commands** (Development):
+`npm run dev`
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+**Build commands** (Production):
+`npm run build`
 
-## Learn More
+**Deployment commands**:
+After running `npm run build`, copy the entire contents of the generated `out/` directory to the `public_html` directory of the Hostinger shared hosting environment.
 
-To learn more about Next.js, take a look at the following resources:
+# 12. Dependencies
+- `next` (16.2.6): Core React framework.
+- `react` / `react-dom` (19.2.4): UI library.
+- `matter-js`: 2D physics engine for potential interactive UI elements.
+- `tailwindcss` / `@tailwindcss/postcss`: Utility-first CSS framework.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+# 14. Current Features
+- Premium Hero section with strong CTA.
+- Service highlight grid using SVG icons.
+- Complex Case Study highlight section mimicking premium editorial design.
+- Logo wall and platform marquees.
+- FAQ accordion layout.
+- Testimonials and Why Us sections.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+# 15. Future Improvements
+- Implement scroll-based fade-in animations using Framer Motion or native CSS.
+- Wire up the Contact Form to a backend service like Formspree or an API route (if hosting upgrades to Vercel/Node).
+- Integrate a headless CMS for Case Studies to allow non-developers to publish new work.
 
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+# 16. Known Issues
+- Form submissions are currently purely aesthetic and do not send emails.
+- Animations are minimal; the site relies heavily on static layout polish.
