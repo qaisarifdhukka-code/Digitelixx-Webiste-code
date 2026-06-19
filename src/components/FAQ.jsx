@@ -24,7 +24,7 @@ const faqData = [
   }
 ];
 
-export default function FAQ() {
+export default function FAQ({ bg = "var(--bg-alt)" }) {
   const [activeIndex, setActiveIndex] = useState(0);
 
   const toggleFAQ = (index) => {
@@ -32,7 +32,7 @@ export default function FAQ() {
   };
 
   return (
-    <section className="faq-section">
+    <section className="faq-section" style={{ backgroundColor: bg }}>
       <div className="container faq-grid">
         <div className="faq-left">
           <h2>Agency FAQs</h2>

@@ -1,0 +1,20 @@
+/* Mobile responsive styles for Marketing Funnel */
+@media (max-width: 768px) {
+  .funnel-step {
+    flex-direction: column !important;
+    gap: 24px !important;
+  }
+  .funnel-content {
+    text-align: center !important;
+    width: 100% !important;
+  }
+  .funnel-spacer {
+    display: none !important;
+  }
+  .funnel-line {
+    display: none !important; /* Hide the center line on mobile since it stacks vertically */
+  }
+  .hero-metric-card {
+    display: none !important; /* Hide floating cards on mobile to prevent text overlap */
+  }
+}

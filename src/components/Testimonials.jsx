@@ -24,19 +24,29 @@ export default function Testimonials() {
 
   const testimonials = [
     {
-      text: "Digitelixx transformed our online presence. Our traffic doubled in just 3 months, and the new web app they built is flawless.",
-      name: "Sarah Jenkins",
-      role: "CEO at Nexus"
+      text: "Digitelixx built our online presence from the ground up. Their work helped us grow our digital sales incredibly fast.",
+      name: "Hami Basan",
+      role: "Planet Muscle"
     },
     {
-      text: "The most transparent agency we've ever worked with. They mapped out the entire software architecture and delivered 2 weeks early.",
-      name: "David Chen",
-      role: "Founder of Stylehive"
+      text: "The team at Digitelixx delivered a flawless website and ran campaigns that significantly increased our leads. We are thrilled with the results.",
+      name: "Vijay Chauhan",
+      role: "Magic Group"
     },
     {
-      text: "Their marketing team is unmatched. We saw a 500% ROI on our paid campaigns within the first quarter. Highly recommended!",
-      name: "Priya Sharma",
-      role: "CMO at Nourishco"
+      text: "Exceptional service and an extremely transparent process. Our brand's visibility skyrocketed after partnering with them.",
+      name: "Zahir",
+      role: "Faceman"
+    },
+    {
+      text: "They don't just build websites; they build scalable systems. Digitelixx is the only agency we trust with our digital ecosystem.",
+      name: "Asif",
+      role: "Naaz"
+    },
+    {
+      text: "Fast execution, zero bloated code, and real results. Our web application was launched on time and runs perfectly.",
+      name: "Altaf",
+      role: "Cashmitra"
     }
   ];
 

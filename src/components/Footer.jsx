@@ -17,33 +17,37 @@ export default function Footer() {
           <div className="footer-col">
             <h4>Navigation</h4>
             <ul>
-              <li><a href="#">Service</a></li>
-              <li><a href="#">Agency</a></li>
-              <li><a href="#">Case Study</a></li>
-              <li><a href="#">Resource</a></li>
-              <li><a href="#">Contact</a></li>
+              <li><a href="/">Home</a></li>
+              <li><a href="/about">About Us</a></li>
+              <li><a href="/careers">Careers</a></li>
+              <li><a href="/services/full-stack-development">Full Stack Dev</a></li>
+              <li><a href="/services/digital-marketing">Digital Marketing</a></li>
+              <li><a href="/contact">Contact</a></li>
             </ul>
           </div>
           
           <div className="footer-col">
-            <h4>Licence</h4>
+            <h4>Legal</h4>
             <ul>
-              <li><a href="#">Privacy Policy</a></li>
-              <li><a href="#">Copyright</a></li>
-              <li><a href="#">Terms of Service</a></li>
+              <li><a href="/privacy-policy">Privacy Policy</a></li>
+              <li><a href="/terms-of-service">Terms of Service</a></li>
             </ul>
           </div>
           
           <div className="footer-col">
             <h4>Contact</h4>
             <div className="contact-item">
-              (406) 555-0120
+              <a href="mailto:info@digitelixx.com" style={{color: "inherit", textDecoration: "none"}}>info@digitelixx.com</a>
+            </div>
+            <div className="contact-item" style={{ lineHeight: "1.5" }}>
+              1601, Magic Square, Near Dhukka Chambers,<br/>
+              Off. Poddar Road, Malad(E), Mumbai-400097
             </div>
             <div className="contact-item">
-              hello@digitelixx.com
+              <a href="tel:+917304759661" style={{color: "inherit", textDecoration: "none"}}>+91 73047 59661</a>
             </div>
-            <div className="contact-item">
-              Mumbai, Maharashtra, India
+            <div className="contact-item" style={{ marginTop: "16px" }}>
+              <a href="/contact" className="btn-action" style={{ fontSize: "0.9rem", padding: "8px 0" }}>Work with us</a>
             </div>
           </div>
         </div>
