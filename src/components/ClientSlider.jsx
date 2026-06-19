@@ -1,7 +1,9 @@
-export default function ClientSlider({ bgColor = "transparent", paddingTop = "120px", paddingBottom = "0px" }) {
+export default function ClientSlider({ bgColor = "transparent", paddingTop = "120px", paddingBottom = "120px" }) {
   return (
     <div className="client-slider-wrapper" style={{ 
       backgroundColor: bgColor, 
+      paddingTop: paddingTop,
+      paddingBottom: paddingBottom,
       display: "flex", 
       flexDirection: "column", 
       justifyContent: "center", 

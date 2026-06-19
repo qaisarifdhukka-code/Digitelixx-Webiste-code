@@ -39,11 +39,11 @@ export default function MarketingHero() {
           </p>
 
           <div className="hero-ctas" style={{ display: "flex", gap: "16px", justifyContent: "center", marginBottom: "48px" }}>
-            <Link href="#contact" className="btn-primary" style={{ padding: "14px 28px", borderRadius: "100px", fontWeight: "600", backgroundColor: "var(--orange)", color: "var(--white)", textDecoration: "none" }}>
+            <Link href="/contact" className="btn-primary" style={{ padding: "14px 28px", borderRadius: "100px", fontWeight: "600", backgroundColor: "var(--orange)", color: "var(--white)", textDecoration: "none" }}>
               Get Your Free Audit
             </Link>
-            <Link href="#services" className="btn-secondary" style={{ padding: "14px 28px", borderRadius: "100px", fontWeight: "600", border: "2px solid var(--teal)", color: "var(--teal)", textDecoration: "none" }}>
-              Explore Services
+            <Link href="/about" className="btn-secondary" style={{ padding: "14px 28px", borderRadius: "100px", fontWeight: "600", border: "2px solid var(--teal)", color: "var(--teal)", textDecoration: "none" }}>
+              About Us
             </Link>
           </div>
 

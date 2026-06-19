@@ -9,7 +9,7 @@ export default function Hero() {
           </span>
           <h1>Grow your brand<br/>Only with the best</h1>
           <p>We turn your vision into impactful digital campaigns and robust software solutions. No long contracts. No bloated builds. Real results.</p>
-          <a href="#" className="btn-primary hero-btn">
+          <a href="https://wa.me/917304759661?text=Hi%20Digitelixx,%20I%20would%20like%20to%20discuss%20a%20project." target="_blank" rel="noopener noreferrer" className="btn-primary" style={{ padding: "16px 36px", fontSize: "1.1rem", borderRadius: "100px", fontWeight: "700" }}>
             Book a Free Call &rarr;
           </a>
         </div>

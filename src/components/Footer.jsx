@@ -7,10 +7,11 @@ export default function Footer() {
             <img src="/Images/Digitelixx Logo.png" alt="Digitelixx" className="footer-logo" />
             <p className="footer-about">We offer a comprehensive suite of digital services that cover all aspects of a brand's growth. From scoping and design to building and final deployment, we have the expertise to transform your vision into reality.</p>
             <div className="social-links">
-              <a href="#">in</a>
-              <a href="#">tw</a>
-              <a href="#">fb</a>
-              <a href="#">ig</a>
+              <a href="https://www.instagram.com/digitelixx/" target="_blank" rel="noopener noreferrer">ig</a>
+              <a href="https://www.facebook.com/Digitelixx/" target="_blank" rel="noopener noreferrer">fb</a>
+              <a href="https://www.linkedin.com/in/digitelixx/" target="_blank" rel="noopener noreferrer">in</a>
+              <a href="https://www.threads.com/@digitelixx?hl=en" target="_blank" rel="noopener noreferrer">th</a>
+              <a href="https://x.com/Digitelixx" target="_blank" rel="noopener noreferrer">x</a>
             </div>
           </div>
           

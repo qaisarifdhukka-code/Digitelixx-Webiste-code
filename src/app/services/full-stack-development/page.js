@@ -1,3 +1,4 @@
+import Link from "next/link";
 import DevPlatforms from "@/components/DevPlatforms";
 import ClientSlider from "@/components/ClientSlider";
 import FAQ from "@/components/FAQ";
@@ -61,13 +62,13 @@ export default function FullStackDevelopment() {
             Powering businesses with intelligent software, automation, and scalable digital solutions.
           </p>
 
-          <div className="hero-ctas" style={{ display: "flex", gap: "16px", justifyContent: "center", marginBottom: "48px" }}>
-            <a href="#contact" className="btn-primary" style={{ padding: "14px 28px", borderRadius: "100px", fontWeight: "600", backgroundColor: "var(--orange)", color: "var(--white)", textDecoration: "none" }}>
-              Schedule a Call
-            </a>
-            <a href="#portfolio" className="btn-secondary" style={{ padding: "14px 28px", borderRadius: "100px", fontWeight: "600", border: "2px solid var(--teal)", color: "var(--teal)", textDecoration: "none" }}>
-              View Our Work
-            </a>
+          <div style={{ display: "flex", gap: "16px", justifyContent: "center", marginBottom: "48px" }}>
+            <Link href="/contact" className="btn-primary" style={{ padding: "14px 28px", borderRadius: "100px", fontWeight: "600", backgroundColor: "var(--orange)", color: "var(--white)", textDecoration: "none" }}>
+              Let's Build It
+            </Link>
+            <Link href="/about" className="btn-secondary" style={{ padding: "14px 28px", borderRadius: "100px", fontWeight: "600", border: "2px solid var(--teal)", color: "var(--teal)", textDecoration: "none" }}>
+              About Us
+            </Link>
           </div>
 
           <div className="arched-hero-boxes">

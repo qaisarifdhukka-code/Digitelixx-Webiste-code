@@ -136,9 +136,9 @@ export default function ServiceTabs({ bg = "transparent" }) {
               </div>
 
               <div className="tab-cta-wrapper">
-                <Link href="#estimate" className="btn-primary tab-cta">
+                <a href="https://wa.me/917304759661?text=Hi%20Digitelixx,%20I%20would%20like%20to%20discuss%20a%20project." target="_blank" rel="noopener noreferrer" className="btn-primary tab-cta">
                   {activeContent.cta}
-                </Link>
+                </a>
               </div>
             </div>
           </div>

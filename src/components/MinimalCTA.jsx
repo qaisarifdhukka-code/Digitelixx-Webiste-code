@@ -47,7 +47,7 @@ export default function MinimalCTA({ bg = "var(--bg)" }) {
           </p>
           
           <div style={{ display: "flex", gap: "16px", justifyContent: "center", flexWrap: "wrap" }}>
-            <a href="#contact" style={{
+            <a href="https://wa.me/917304759661?text=Hi%20Digitelixx,%20I%20would%20like%20to%20discuss%20a%20project." target="_blank" rel="noopener noreferrer" style={{
               display: "inline-flex",
               alignItems: "center",
               justifyContent: "center",
@@ -73,7 +73,7 @@ export default function MinimalCTA({ bg = "var(--bg)" }) {
               Let's Talk
             </a>
             
-            <a href="#portfolio" style={{
+            <a href="/about" style={{
               display: "inline-flex",
               alignItems: "center",
               justifyContent: "center",
@@ -97,7 +97,7 @@ export default function MinimalCTA({ bg = "var(--bg)" }) {
               e.currentTarget.style.backgroundColor = "transparent";
             }}
             >
-              View Portfolio
+              About Us
             </a>
           </div>
         </div>

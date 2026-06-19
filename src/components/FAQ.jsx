@@ -1,5 +1,6 @@
 "use client";
 import { useState } from "react";
+import Link from "next/link";
 
 const faqData = [
   {
@@ -38,8 +39,8 @@ export default function FAQ({ bg = "var(--bg-alt)" }) {
           <h2>Agency FAQs</h2>
           <p>As a specialized development & marketing studio, we are dedicated to delivering functional solutions efficiently and providing a transparent, risk-free process to help our clients succeed.</p>
           <div className="faq-actions">
-            <a href="#" className="btn-outline">More Questions</a>
-            <a href="#" className="link-underline">Contact Us</a>
+            <a href="mailto:info@digitelixx.com" className="btn-outline">More Questions</a>
+            <Link href="/contact" className="link-underline">Contact Us</Link>
           </div>
         </div>
         <div className="faq-right">

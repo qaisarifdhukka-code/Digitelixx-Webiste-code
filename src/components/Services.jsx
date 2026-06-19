@@ -1,3 +1,5 @@
+import Link from "next/link";
+
 export default function Services() {
   return (
     <section className="services-section" style={{ background: "var(--bg-alt)" }}>
@@ -24,13 +26,13 @@ export default function Services() {
             <div className="service-tag" style={{ position: 'relative', zIndex: 1 }}>01 — STRATEGY</div>
             <h3 style={{ position: 'relative', zIndex: 1 }}>Digital Marketing</h3>
             <p style={{ position: 'relative', zIndex: 1 }}>Data-driven campaigns, SEO, paid media, and brand strategy designed to capture attention and increase conversions.</p>
-            <a href="#" className="service-link" style={{ position: 'relative', zIndex: 1 }}>
+            <Link href="/services/digital-marketing" className="service-link" style={{ position: 'relative', zIndex: 1 }}>
               VIEW CAPABILITIES
               <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
                 <line x1="5" y1="12" x2="19" y2="12"></line>
                 <polyline points="12 5 19 12 12 19"></polyline>
               </svg>
-            </a>
+            </Link>
           </div>
           
           <div className="service-pillar">
@@ -49,13 +51,13 @@ export default function Services() {
             <div className="service-tag" style={{ color: '#3b82f6', position: 'relative', zIndex: 1 }}>02 — ENGINEERING</div>
             <h3 style={{ position: 'relative', zIndex: 1 }}>Software Development</h3>
             <p style={{ position: 'relative', zIndex: 1 }}>Custom web apps, enterprise software, and robust architectural solutions using modern React and Node.js tech stacks.</p>
-            <a href="#" className="service-link" style={{ position: 'relative', zIndex: 1 }}>
+            <Link href="/services/full-stack-development" className="service-link" style={{ position: 'relative', zIndex: 1 }}>
               VIEW CAPABILITIES
               <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
                 <line x1="5" y1="12" x2="19" y2="12"></line>
                 <polyline points="12 5 19 12 12 19"></polyline>
               </svg>
-            </a>
+            </Link>
           </div>
         </div>
       </div>
