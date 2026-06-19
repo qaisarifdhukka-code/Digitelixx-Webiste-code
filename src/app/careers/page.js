@@ -40,7 +40,7 @@ export default function CareersPage() {
           
           <div style={{ display: "flex", flexDirection: "column", gap: "32px" }}>
             
-            <div style={{ borderBottom: "1px solid var(--border)", paddingBottom: "32px", display: "flex", flexWrap: "wrap", justifyContent: "space-between", alignItems: "center", gap: "24px" }}>
+            <div className="career-job-row" style={{ borderBottom: "1px solid var(--border)", paddingBottom: "32px", display: "flex", flexWrap: "wrap", justifyContent: "space-between", alignItems: "center", gap: "24px" }}>
               <div>
                 <h3 style={{ fontSize: "1.5rem", color: "var(--teal-dark)", marginBottom: "8px", fontWeight: "700" }}>Senior Full-Stack Engineer</h3>
                 <p style={{ fontSize: "1.1rem", color: "var(--text-muted)", margin: 0 }}>Remote • Engineering</p>
@@ -50,7 +50,7 @@ export default function CareersPage() {
               </a>
             </div>
 
-            <div style={{ borderBottom: "1px solid var(--border)", paddingBottom: "32px", display: "flex", flexWrap: "wrap", justifyContent: "space-between", alignItems: "center", gap: "24px" }}>
+            <div className="career-job-row" style={{ borderBottom: "1px solid var(--border)", paddingBottom: "32px", display: "flex", flexWrap: "wrap", justifyContent: "space-between", alignItems: "center", gap: "24px" }}>
               <div>
                 <h3 style={{ fontSize: "1.5rem", color: "var(--teal-dark)", marginBottom: "8px", fontWeight: "700" }}>Growth Strategist</h3>
                 <p style={{ fontSize: "1.1rem", color: "var(--text-muted)", margin: 0 }}>Remote • Marketing</p>
@@ -60,7 +60,7 @@ export default function CareersPage() {
               </a>
             </div>
 
-            <div style={{ borderBottom: "1px solid var(--border)", paddingBottom: "32px", display: "flex", flexWrap: "wrap", justifyContent: "space-between", alignItems: "center", gap: "24px" }}>
+            <div className="career-job-row" style={{ borderBottom: "1px solid var(--border)", paddingBottom: "32px", display: "flex", flexWrap: "wrap", justifyContent: "space-between", alignItems: "center", gap: "24px" }}>
               <div>
                 <h3 style={{ fontSize: "1.5rem", color: "var(--teal-dark)", marginBottom: "8px", fontWeight: "700" }}>UX/UI Designer</h3>
                 <p style={{ fontSize: "1.1rem", color: "var(--text-muted)", margin: 0 }}>Remote • Design</p>
@@ -70,12 +70,12 @@ export default function CareersPage() {
               </a>
             </div>
 
-            <div style={{ borderBottom: "1px solid var(--border)", paddingBottom: "32px", display: "flex", flexWrap: "wrap", justifyContent: "space-between", alignItems: "center", gap: "24px" }}>
+            <div className="career-job-row" style={{ borderBottom: "1px solid var(--border)", paddingBottom: "32px", display: "flex", flexWrap: "wrap", justifyContent: "space-between", alignItems: "center", gap: "24px" }}>
               <div>
                 <h3 style={{ fontSize: "1.5rem", color: "var(--teal-dark)", marginBottom: "8px", fontWeight: "700" }}>Open Application</h3>
                 <p style={{ fontSize: "1.1rem", color: "var(--text-muted)", margin: 0 }}>Remote • Any Department</p>
               </div>
-              <a href="mailto:careers@digitelixx.com?subject=Application:%20Open%20Application" className="btn-action" style={{ textDecoration: "none", display: "inline-block" }}>
+              <a href="mailto:careers@digitelixx.com?subject=Application:%20Open%20Role" className="btn-action" style={{ textDecoration: "none", display: "inline-block" }}>
                 Apply Now
               </a>
             </div>
