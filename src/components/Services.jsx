@@ -10,7 +10,10 @@ export default function Services() {
         </p>
         
         <div className="services-grid">
-          <div className="service-pillar">
+          <div className="service-pillar pillar-marketing">
+            {/* The Glowing Aura */}
+            <div className="pillar-glow"></div>
+            
             <div className="service-icon" style={{ display: 'flex', alignItems: 'center', justifyContent: 'center', width: '48px', height: '48px', backgroundColor: 'rgba(240, 90, 34, 0.1)', borderRadius: '12px', zIndex: 1, position: 'relative' }}>
               <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="var(--orange)" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
                 <path d="M21.21 15.89A10 10 0 1 1 8 2.83"></path>
@@ -18,7 +21,7 @@ export default function Services() {
               </svg>
             </div>
             
-            <svg className="watermark" width="240" height="240" viewBox="0 0 24 24" fill="none" stroke="rgba(255, 255, 255, 0.03)" strokeWidth="1" style={{ position: 'absolute', right: '-40px', top: '-40px', zIndex: 0 }}>
+            <svg className="watermark" width="240" height="240" viewBox="0 0 24 24" fill="none" stroke="rgba(255, 255, 255, 0.03)" strokeWidth="1" style={{ position: 'absolute', right: '-40px', top: '-40px', zIndex: 0, transition: 'all 0.5s ease' }}>
               <path d="M21.21 15.89A10 10 0 1 1 8 2.83"></path>
               <path d="M22 12A10 10 0 0 0 12 2v10z"></path>
             </svg>
@@ -35,7 +38,10 @@ export default function Services() {
             </Link>
           </div>
           
-          <div className="service-pillar">
+          <div className="service-pillar pillar-engineering">
+            {/* The Glowing Aura */}
+            <div className="pillar-glow"></div>
+            
             <div className="service-icon" style={{ display: 'flex', alignItems: 'center', justifyContent: 'center', width: '48px', height: '48px', backgroundColor: 'rgba(59, 130, 246, 0.1)', borderRadius: '12px', zIndex: 1, position: 'relative' }}>
               <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#3b82f6" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
                 <polyline points="16 18 22 12 16 6"></polyline>
@@ -43,7 +49,7 @@ export default function Services() {
               </svg>
             </div>
 
-            <svg className="watermark" width="240" height="240" viewBox="0 0 24 24" fill="none" stroke="rgba(255, 255, 255, 0.03)" strokeWidth="1" strokeLinecap="round" strokeLinejoin="round" style={{ position: 'absolute', right: '-40px', top: '0', zIndex: 0 }}>
+            <svg className="watermark" width="240" height="240" viewBox="0 0 24 24" fill="none" stroke="rgba(255, 255, 255, 0.03)" strokeWidth="1" strokeLinecap="round" strokeLinejoin="round" style={{ position: 'absolute', right: '-40px', top: '0', zIndex: 0, transition: 'all 0.5s ease' }}>
               <polyline points="16 18 22 12 16 6"></polyline>
               <polyline points="8 6 2 12 8 18"></polyline>
             </svg>

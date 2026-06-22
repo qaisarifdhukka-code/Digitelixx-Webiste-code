@@ -413,20 +413,53 @@ a {
 .service-pillar {
   background: var(--teal-dark);
   color: var(--white);
-  padding: 40px 32px;
-  border-radius: 20px;
-  transition: all 0.3s ease;
+  padding: 48px 40px;
+  border-radius: 24px;
+  transition: all 0.4s cubic-bezier(0.16, 1, 0.3, 1);
   position: relative;
   overflow: hidden;
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  box-shadow: inset 0 0 0 1px rgba(255, 255, 255, 0.02);
 }
 
 .service-pillar:hover {
-  transform: translateY(-6px);
-  box-shadow: 0 16px 30px rgba(26, 60, 94, 0.15);
+  transform: translateY(-8px);
+  border-color: rgba(255, 255, 255, 0.2);
+  box-shadow: 0 24px 40px rgba(16, 39, 63, 0.4), inset 0 0 0 1px rgba(255, 255, 255, 0.05);
+}
+
+/* Hover effect on the watermark */
+.service-pillar:hover .watermark {
+  transform: scale(1.1) rotate(-5deg);
+  stroke: rgba(255, 255, 255, 0.08);
+}
+
+/* Glowing Aura Effect */
+.pillar-glow {
+  position: absolute;
+  width: 300px;
+  height: 300px;
+  top: -150px;
+  left: -150px;
+  border-radius: 50%;
+  filter: blur(80px);
+  opacity: 0;
+  transition: opacity 0.5s ease;
+  z-index: 0;
+}
+
+.pillar-marketing:hover .pillar-glow {
+  opacity: 0.15;
+  background: var(--orange);
+}
+
+.pillar-engineering:hover .pillar-glow {
+  opacity: 0.15;
+  background: #3b82f6; /* Blue */
 }
 
 .service-icon {
-  margin-bottom: 12px;
+  margin-bottom: 24px;
 }
 
 .service-icon svg {
