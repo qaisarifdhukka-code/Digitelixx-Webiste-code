@@ -14,7 +14,7 @@ export default function Home() {
       <Hero />
       <Services />
       <WhyUs />
-      <ClientSlider bgColor="var(--white)" paddingBottom="80px" paddingTop="80px" />
+      <ClientSlider bgColor="var(--bg-alt)" paddingBottom="80px" paddingTop="80px" />
       <CaseStudyHighlight />
       <Platforms />
       <Testimonials />

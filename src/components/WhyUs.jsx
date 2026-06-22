@@ -1,6 +1,6 @@
 export default function WhyUs() {
   return (
-    <section className="why-us-section" style={{ background: "var(--bg-alt)" }}>
+    <section className="why-us-section" style={{ background: "var(--bg)" }}>
       <div className="container">
         <h2>Why Digitelixx?</h2>
         <div className="why-us-grid">

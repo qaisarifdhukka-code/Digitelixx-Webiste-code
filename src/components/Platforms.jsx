@@ -28,7 +28,7 @@ export default function Platforms() {
   const row2Marquee = [...row2Tools, ...row2Tools, ...row2Tools, ...row2Tools];
 
   return (
-    <section className="platforms-section">
+    <section className="platforms-section" style={{ background: "var(--bg-alt)" }}>
       <div className="container">
         <div className="platforms-header">
           <span className="platforms-tag">PLATFORMS & TECHNOLOGIES</span>

@@ -1,6 +1,6 @@
 export default function CaseStudyHighlight() {
   return (
-    <section style={{ padding: "120px 0", backgroundColor: "var(--bg-alt)" }}>
+    <section style={{ padding: "120px 0", backgroundColor: "var(--bg)" }}>
       <div className="container">
         <div 
           className="belief-grid"
