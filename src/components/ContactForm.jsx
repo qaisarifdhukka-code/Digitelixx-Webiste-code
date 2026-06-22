@@ -42,7 +42,7 @@ export default function ContactForm({ theme = "light" }) {
     setIsSubmitting(true);
     
     try {
-      const response = await fetch("https://formsubmit.co/ajax/digitelixx@gmail.com", {
+      const response = await fetch("https://formsubmit.co/ajax/b8f49a6b652c37725bf774b21448cdf7", {
         method: "POST",
         headers: {
           'Accept': 'application/json'
