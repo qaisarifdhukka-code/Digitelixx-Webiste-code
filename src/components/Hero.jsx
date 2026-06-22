@@ -13,17 +13,44 @@ export default function Hero() {
             Book a Free Call &rarr;
           </a>
         </div>
-        <div className="hero-right">
-          <div className="hero-card">
-            <div className="hero-card-tag">Fast & Reliable</div>
-            <h3>Don't see growth in 90 days? We work for free.</h3>
-            <div className="chart">
-              <div className="bar"></div>
-              <div className="bar"></div>
-              <div className="bar"></div>
-              <div className="bar"></div>
+        <div className="hero-right-container">
+          
+          {/* Background Glow */}
+          <div className="hero-glow"></div>
+
+          {/* Floating Chart Card */}
+          <div className="floating-glass-card chart-card">
+            <div className="mini-chart-bars">
+              <div className="mini-bar"></div>
+              <div className="mini-bar"></div>
+              <div className="mini-bar"></div>
+              <div className="mini-bar"></div>
+            </div>
+            <div className="card-info-col">
+              <span className="card-value">+124%</span>
+              <span className="card-label">Growth</span>
             </div>
           </div>
+
+          {/* Floating Badge Card */}
+          <div className="floating-glass-card badge-card">
+            <div className="badge-icon-wrap">
+              <span>⭐</span>
+            </div>
+            <div className="card-info-col">
+              <span className="card-value">4.9/5</span>
+              <span className="card-label">Average ROI</span>
+            </div>
+          </div>
+
+          {/* Floating Accent */}
+          <div className="floating-accent"></div>
+
+          <img 
+            src="/images/hero-person.png" 
+            alt="Digital Marketing Expert" 
+            className="hero-person-img" 
+          />
         </div>
       </div>
     </section>
